@@ -31,7 +31,7 @@
 * ```docker run -p [8080]:[80] [name-of-image]``` = Creating and running a container on custom post (external port:container port).
 * ```docker run -v ${PWD}:[/usr/share/nginx/html] nginx``` = Creating and running a container with connecting volume to the local path to the html file. 
 * ```docker run -it --rm [busybox]``` = remove container after stop
-* ```docker run \--name [my-doc] \-p 8888:80``` = with \ symbol with can start new row.
+* ```docker run \--name [my-doc] \-p 8888:80``` = \ -> start new row.
 
 ## Images 
 * [hello-world](https://hub.docker.com/_/hello-world)
